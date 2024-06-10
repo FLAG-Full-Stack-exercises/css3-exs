@@ -15,12 +15,10 @@
     <style>
         html, body {
         font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings: "wdth" 100;
-        margin-left: 20px;
-        margin-right: 20px;
+        max-width:1300px;
+        min-width:1300px;
+        margin-left: auto;
+        margin-right: auto;
         }
         .specialtitle {
         font-family: 'Times New Roman', Times, serif;
@@ -37,28 +35,27 @@
 <body>
 
     <header>
-
-            <!--topbar-->
-            <div class="row mt-2 mb-2">
-                <div class="col-3 text-start">
-                    <i class="fa-solid fa-bars me-3 align-middle"></i> 
-                    <i class="fa-solid fa-magnifying-glass me-3 align-middle"></i> 
-                    <i class="fa-solid fa-radio align-middle"></i>
-                    <span class="smalltext align-middle">OUVIR RÁDIO</span>
-                </div>
-                <div class="col-6 text-center">
-                    <img class="img-fluid" src="/img/logo.png" alt="Logo">
-                </div>
-                <div class="col-3 text-end">
-                    <button type="button" class="btn btn-warning me-3 align-middle">Assinar o Observador</button>
-                    <i class="fa-regular fa-bell me-3 align-middle"></i>
-                    <i class="fa-regular fa-user align-middle"></i>
-                </div>
+        <!--topbar-->
+        <div class="row mt-2 mb-2 me-5 ms-5">
+            <div class="col-3 text-start">
+                <i class="fa-solid fa-bars me-3 align-middle"></i> 
+                <i class="fa-solid fa-magnifying-glass me-3 align-middle"></i> 
+                <i class="fa-solid fa-radio align-middle"></i>
+                <span class="smalltext align-middle">OUVIR RÁDIO</span>
             </div>
-
-            <!--headerimage-->
-            <div class="container-fluid">
-                <div class="bg-image" style="background-image: url(/img/bg.jpg); height: 330px;">
+            <div class="col-6 text-center">
+                <img class="img-fluid" src="/img/logo.png" alt="Logo">
+            </div>
+            <div class="col-3 text-end">
+                <button type="button" class="btn btn-warning me-3 align-middle">Assinar o Observador</button>
+                <i class="fa-regular fa-bell me-3 align-middle"></i>
+                <i class="fa-regular fa-user align-middle"></i>
+            </div>
+        </div>
+        <!--headerimage-->
+        <div class="container-fluid">
+            <div class="bg-image" style="background: url(/img/bg.jpg) center no-repeat">
+                <div class="container">
                     <div class="row">
                         <div class="col-2 offset-5 text-center mt-3 bg-light">
                             <i class="fa-solid fa-sun"></i>
@@ -67,219 +64,228 @@
                                 <span class="slider round"></span>
                             </label>
                             <i class="fa-solid fa-moon"></i>
-                            <span class="smalltext align-middle">Modo dark</span>
+                            <span class="smalltext ">Modo dark</span>
                         </div>
                     </div>
-                    <div class="p-5 mt-5">
-                    <p class="specialtitle col-8 offset-2 p-5 mt-5 text-center fs-1 ">Europeias. A última chamada dos candidatos antes do dia acabar</p>
-                    </div>
-                </div>
-              </div>  
-    </header>  
-    <div class="container">
-        <main>
-            <div class="row">
-                <div class="col-3 offset-9">
-                    <p class="text-uppercase text-secondary mt-1 smalltext text-end">
-                        RODRIGO MENDES/OBSERVADOR
-                    </p>
-                </div>
-            </div>
-
-            <!--artigo principal-->
-            <div class="row">
-                <div class="col-6 offset-3">
-                    <article>
-                        <p class="fs-6 mb-4 mt-4">
-                            Texto de Inês André Figueiredo, Mariana Lima Cunha, João Francisco Gomes, José Carlos Duarte, Miguel Santos Carrapatoso, Rui Pedro Antunes e Vasco Maldonado Correia, ilustração de Rodrigo Mendes
-                        </p>
-                        <h1 class="fs-4">
-                            Os candidatos foram desafiados a fazer a última chamada do dia para o jornalista do Observador que acompanha a comitiva. Muitas foram já de madrugada. No carro, no hotel ou a caminho de casa.
-                        </h1>
-                        <div class="row">
-                            <div class="col-4 d-flex mt-4">
-                                <p class="smalltext me-3">07 jun. 2024, 16:55</p>
-                                <i class="fa-solid fa-comment me-1"></i>
-                                <p class="smalltext">1</p>
-                                <i class="fa-solid fa-award ms-1"></i>
-                            </div>
-                            <div class="col-4 offset-4 d-flex">
-                                <button type="button" class="btn btn-light me-3">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </button>
-                                <button type="button" class="btn btn-light d-flex">
-                                    <i class="fa-solid fa-gift me-2"></i>
-                                    <p class="smalltext text-secondary">Oferecer</p>
-                                </button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            
-            <div class="row">
-
-                <!--destaques esquerda-->
-                <div class="col-3">
-                    <p class="fs-4 text-primary fw-bold mt-5">
-                        Índice
-                    </p>
+                    <div class="row" style="height:300px"></div>
                     <div class="row">
-                        <div class="col-2">
-                            <p class="fs-3 text-primary fw-bold">1</p>
-                        </div>
-                        <div class="col-10">
-                            <p class="smalltext text-secondary">
-                                Marta Temido. A candidata que não gosta de “violência” (nem de instabilidade) e toma banhos frios para relaxar
-                            </p>
-                        </div>
-                        <div class="col-2">
-                            <p class="fs-3 text-primary fw-bold">2</p>
-                        </div>
-                        <div class="col-10">
-                            <p class="smalltext text-secondary">
-                                Tânger Corrêa. Vitória por 4 ou 5, a “malita” e o TikTok para a “rapaziada mais nova”
-                            </p>
-                        </div>
-                        <div class="col-2">
-                            <p class="fs-3 text-primary fw-bold">3</p>
-                        </div>
-                        <div class="col-10">
-                            <p class="smalltext text-secondary">
-                                João Cotrim Figueiredo. Os preparativos para a festa da IL e as malas prontas para Bruxelas
-                            </p>
-                        </div>
-                        <div class="col-2">
-                            <p class="fs-3 text-primary fw-bold">4</p>
-                        </div>
-                        <div class="col-10">
-                            <p class="smalltext text-secondary">
-                                Catarina Martins. A ajuda da Marisa e do Francisco na campanha menos exigente que outras
+                        <div class="mt-5 mb-2">
+                            <p class="specialtitle col-8 offset-2 mt-5 text-center fs-1 ">
+                                Europeias. A última chamada dos candidatos antes do dia acabar
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> 
+            </div>
+        </div>  
+    </header>  
 
-                <!--artigo principal-->
-                <div class="col-6">
-                    <p class="fs-5 mt-5">
-                        <span class="fw-bold">Marta Temido</span> confessa ao Observador que fala com a família e toma um banho frio sempre que chega ao hotel no final do dia de campanha. A candidata do PS acusa Sebastião Bugalho de ser um jovem com “ideias velhas”, mas ressalva que não se trata de um ataque pessoal, já que os ideais são do partido. <span class="fw-bold"">Tânger-Corrêa</span> recusa falar sobre teorias da conspiração como o plano com amigos americanos, embora confesse estar habituado a guardar informações confidenciais. O candidato do Chega diz que esta é a última campanha que está disponível para fazer e que agora só quer pegar na “malita” e ir para Bruxelas.
+    
+    <main>
+        <div class="row">
+            <div class="col-3 offset-9">
+                <p class="text-uppercase text-secondary mt-1 smalltext text-end me-5">
+                    RODRIGO MENDES/OBSERVADOR
+                </p>
+            </div>
+        </div>
+        <!--artigo principal-->
+        <div class="row">
+            <div class="col-6 offset-3">
+                <article>
+                    <p class="fs-6 mb-4 mt-4 me-4 ms-4">
+                        Texto de Inês André Figueiredo, Mariana Lima Cunha, João Francisco Gomes, José Carlos Duarte, Miguel Santos Carrapatoso, Rui Pedro Antunes e Vasco Maldonado Correia, ilustração de Rodrigo Mendes
                     </p>
-                </div>
+                    <h1 class="fs-4 me-4 ms-4">
+                        Os candidatos foram desafiados a fazer a última chamada do dia para o jornalista do Observador que acompanha a comitiva. Muitas foram já de madrugada. No carro, no hotel ou a caminho de casa.
+                    </h1>
+                    <div class="row me-3 ms-3">
+                        <div class="col-4 d-flex mt-4">
+                            <p class="smalltext me-4">07 jun. 2024, 16:55</p>
+                            <i class="text-primary fa-solid fa-comment me-1"></i>
+                            <p class="smalltext">1</p>
+                            <i class="fa-solid fa-award ms-1"></i>
+                        </div>
+                        <div class="col-4 offset-4 d-flex">
+                            <button type="button" class="btn btn-light me-3">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button type="button" class="btn btn-light d-flex">
+                                <i class="text-primary fa-solid fa-gift me-2"></i>
+                                <p class="smalltext text-secondary">Oferecer</p>
+                            </button>
+                        </div>
+                    </div>
+                </article>
             </div>
-
-            <!--outros destaques-->
-            <div class="row mt-5 mb-3">
-                <h4 class="text-uppercase text-primary fw-bold">
-                    Recomendamos
-                </h4>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=1!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
-                    <p class="fs-5 fw-bold lh-sm">Extrema-direita quer "destruir e arruinar" Europa</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=2!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Reportagem Observador</p>
-                    <p class="fs-5 fw-bold lh-sm">Pedro Nuno Santos: "Governo esconde problemas"</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=3!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Reportagem Observador</p>
-                    <p class="fs-5 fw-bold lh-sm">No Chiado, Montenegro piscou à esquerda e direita</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=4!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
-                    <p class="fs-5 fw-bold lh-sm">Rui Tavares diz que campanha do Livre foi "forte"</p>
-                </div>
-            </div>
-            <div class="row mt-4 mb-3">
-                <h4 class="text-uppercase text-primary fw-bold">
-                    Últimas
-                </h4>
-            </div>
-            <div class="row mt-2">
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=5!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Geração V</p>
-                    <p class="fs-5 fw-bold lh-sm">A luta por 2€ na AR e os planos do Governo</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=6!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Justiça</p>
-                    <p class="fs-5 fw-bold lh-sm">AIMA: Ffalta de resposta "acentua" vulnerabilidade</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=7!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Noticiário</p>
-                    <p class="fs-5 fw-bold lh-sm">21h. Secretário Geral do PS ataca Governo</p>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="https://picsum.photos/600/300?random=8!" alt="Foto">
-                    <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
-                    <p class="fs-5 fw-bold lh-sm">PAN pede aos eleitores para confiar no partido</p>
-                </div>
-            </div>
-        </main>
-
-        <footer>
-            <div class="row mt-5">
-                <div class="col-3">
-                    <img src="/img/logo.png" alt="Logo" style="width: 140px;">
-                    <p class="smalltext text-secondary mb-1 mt-4">Rua João Saraiva, nº 7</p>
-                    <p class="smalltext text-secondary mb-1">1700-248 Lisboa</p>
-                    <p class="smalltext text-secondary mb-1">© 2024</p>
-                    <p class="smalltext text-secondary mb-2 mt-4">Seguir</p>
-                    <div class="d-flex">
-                        <i class=" me-2 fa-brands fa-facebook-f"></i>
-                        <i class=" me-2 fa-brands fa-twitter"></i>
-                        <i class=" me-2 fa-brands fa-linkedin-in"></i>
-                        <i class=" me-2 fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="row">
+            <!--destaques esquerda-->
+            <div class="col-3">
+                <p class="fs-4 text-primary fw-bold mt-5 ms-5">
+                    Índice
+                </p>
+                <div class="row me-3 ms-5">
+                    <div class="col-2">
+                        <p class="fs-3 text-primary fw-bold">1</p>
+                    </div>
+                    <div class="col-10">
+                        <p class="smalltext text-secondary">
+                            Marta Temido. A candidata que não gosta de “violência” (nem de instabilidade) e toma banhos frios para relaxar
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <p class="fs-3 text-primary fw-bold">2</p>
+                    </div>
+                    <div class="col-10">
+                        <p class="smalltext text-secondary">
+                            Tânger Corrêa. Vitória por 4 ou 5, a “malita” e o TikTok para a “rapaziada mais nova”
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <p class="fs-3 text-primary fw-bold">3</p>
+                    </div>
+                    <div class="col-10">
+                        <p class="smalltext text-secondary">
+                            João Cotrim Figueiredo. Os preparativos para a festa da IL e as malas prontas para Bruxelas
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <p class="fs-3 text-primary fw-bold">4</p>
+                    </div>
+                    <div class="col-10">
+                        <p class="smalltext text-secondary">
+                            Catarina Martins. A ajuda da Marisa e do Francisco na campanha menos exigente que outras
+                        </p>
                     </div>
                 </div>
-                <div class="col-3">
-                    <p class="smalltext text-secondary mb-3">Sobre</p>
-                    <p class="smalltext mb-1">Política de Privacidade e Cookies</p>
-                    <p class="smalltext mb-1">Termos e Condições</p>
-                    <p class="smalltext mb-1">Termos e Condições da Compra</p>
-                    <p class="smalltext mb-1">Como anunciar</p>
-                    <p class="smalltext mb-1">Ficha Técnica</p>
-                    <p class="smalltext mb-1">Estatuto Editorial</p>
-                    <p class="smalltext mb-1">Política de correções</p>
-                    <p class="smalltext mb-1">Regras da Comunidade</p>
-                    <p class="smalltext mb-1">Contactos</p>
-                    <p class="smalltext mb-1">Carreiras</p>
-                    <p class="smalltext mb-1">Ajuda</p>
+            </div>
+            <!--artigo principal-->
+            <div class="col-6">
+                <p class="fs-5 mt-5 me-4 ms-4">
+                    <span class="fw-bold">Marta Temido</span> confessa ao Observador que fala com a família e toma um banho frio sempre que chega ao hotel no final do dia de campanha. A candidata do PS acusa Sebastião Bugalho de ser um jovem com “ideias velhas”, mas ressalva que não se trata de um ataque pessoal, já que os ideais são do partido. <span class="fw-bold"">Tânger-Corrêa</span> recusa falar sobre teorias da conspiração como o plano com amigos americanos, embora confesse estar habituado a guardar informações confidenciais. O candidato do Chega diz que esta é a última campanha que está disponível para fazer e que agora só quer pegar na “malita” e ir para Bruxelas.
+                </p>
+            </div>
+        </div>
+        <!--outros destaques-->
+        <div class="row mt-5 mb-3 ms-5">
+            <h4 class="text-uppercase text-primary fw-bold">
+                Recomendamos
+            </h4>
+        </div>
+        <div class="row me-5 ms-5">
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=1!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
+                <p class="fs-5 fw-bold lh-sm">Extrema-direita quer "destruir e arruinar" Europa</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=2!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Reportagem Observador</p>
+                <p class="fs-5 fw-bold lh-sm">Pedro Nuno Santos: "Governo esconde problemas"</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=3!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Reportagem Observador</p>
+                <p class="fs-5 fw-bold lh-sm">No Chiado, Montenegro piscou à esquerda e direita</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=4!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
+                <p class="fs-5 fw-bold lh-sm">Rui Tavares diz que campanha do Livre foi "forte"</p>
+            </div>
+        </div>
+        <div class="row mt-4 mb-3 ms-5">
+            <h4 class="text-uppercase text-primary fw-bold">
+                Últimas
+            </h4>
+        </div>
+        <div class="row mt-2 mb-4 me-5 ms-5">
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=5!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Geração V</p>
+                <p class="fs-5 fw-bold lh-sm">A luta por 2€ na AR e os planos do Governo</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=6!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Justiça</p>
+                <p class="fs-5 fw-bold lh-sm">AIMA: Ffalta de resposta "acentua" vulnerabilidade</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=7!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Noticiário</p>
+                <p class="fs-5 fw-bold lh-sm">21h. Secretário Geral do PS ataca Governo</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="https://picsum.photos/600/300?random=8!" alt="Foto">
+                <p class="text-uppercase smalltext mt-2 mb-2">Eleições Europeias</p>
+                <p class="fs-5 fw-bold lh-sm">PAN pede aos eleitores para confiar no partido</p>
+            </div>
+        </div> 
+    </main>
+
+    <div class="row me-4 ms-4">
+        <div class="col-12">
+            <hr class="text-secondary">
+        </div>
+    </div>
+
+    <footer>
+        <div class="row mt-4 mb-3 me-5 ms-5">
+            <div class="col-3">
+                <img src="/img/logo.png" alt="Logo" style="width: 140px;">
+                <p class="smalltext text-secondary mb-1 mt-4">Rua João Saraiva, nº 7</p>
+                <p class="smalltext text-secondary mb-1">1700-248 Lisboa</p>
+                <p class="smalltext text-secondary mb-1">© 2024</p>
+                <p class="smalltext text-secondary mb-2 mt-4">Seguir</p>
+                <div class="d-flex">
+                    <i class=" me-2 fa-brands fa-facebook-f"></i>
+                    <i class=" me-2 fa-brands fa-twitter"></i>
+                    <i class=" me-2 fa-brands fa-linkedin-in"></i>
+                    <i class=" me-2 fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
                 </div>
-                <div class="col-3">
-                    <p class="smalltext text-secondary mb-3">Descobrir</p>
-                    <p class="smalltext mb-1">Programas</p>
-                    <p class="smalltext mb-1">Podcasts</p>
-                    <p class="smalltext mb-1">Autores</p>
-                    <p class="smalltext mb-1">Colunistas</p>
-                    <p class="smalltext mb-1">Tópicos</p>
-                    <p class="smalltext mb-1">Newsletters</p>
-                    <p class="smalltext mb-1">Eventos</p>
-                    <p class="smalltext mb-1">Conversas</p>
-                    <p class="smalltext mb-1">Abrapalavra</p>
-                    <p class="smalltext mb-1">Sudoku</p>
-                </div>
-                <div class="col-3">
-                    <p class="smalltext text-secondary mb-3">Instale a nossa App</p>
-                    <p class="smalltext text-secondary mb-3">Disponível gratuitamente para iPhone, iPad, Apple Watch e Android</p>
-                    <div class="mb-3">
-                        <img src="/img/1.png" alt="App Store">
+            </div>
+            <div class="col-3">
+                <p class="smalltext text-secondary mb-3">Sobre</p>
+                <p class="smalltext mb-1">Política de Privacidade e Cookies</p>
+                <p class="smalltext mb-1">Termos e Condições</p>
+                <p class="smalltext mb-1">Termos e Condições da Compra</p>
+                <p class="smalltext mb-1">Como anunciar</p>
+                <p class="smalltext mb-1">Ficha Técnica</p>
+                <p class="smalltext mb-1">Estatuto Editorial</p>
+                <p class="smalltext mb-1">Política de correções</p>
+                <p class="smalltext mb-1">Regras da Comunidade</p>
+                <p class="smalltext mb-1">Contactos</p>
+                <p class="smalltext mb-1">Carreiras</p>
+                <p class="smalltext mb-1">Ajuda</p>
+            </div>
+            <div class="col-3">
+                <p class="smalltext text-secondary mb-3">Descobrir</p>
+                <p class="smalltext mb-1">Programas</p>
+                <p class="smalltext mb-1">Podcasts</p>
+                <p class="smalltext mb-1">Autores</p>
+                <p class="smalltext mb-1">Colunistas</p>
+                <p class="smalltext mb-1">Tópicos</p>
+                <p class="smalltext mb-1">Newsletters</p>
+                <p class="smalltext mb-1">Eventos</p>
+                <p class="smalltext mb-1">Conversas</p>
+                <p class="smalltext mb-1">Abrapalavra</p>
+                <p class="smalltext mb-1">Sudoku</p>
+            </div>
+            <div class="col-3">
+                <p class="smalltext text-secondary mb-3">Instale a nossa App</p>
+                <p class="smalltext text-secondary mb-3">Disponível gratuitamente para iPhone, iPad, Apple Watch e Android</p>
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <img class="mb-1" src="/img/1.png" alt="App Store">
                         <img src="/img/2.png" alt="Google Play">
                     </div>
-                    <img src="/img/3.png" alt="Recombee">
                 </div>
+                <img src="/img/3.png" alt="Recombee">
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
